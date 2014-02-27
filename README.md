@@ -44,7 +44,7 @@ and run it with "java -jar UBERJAR.jar"
 
 ## License
 
-Copyright © 2013 Aravind Gottipati
+Copyright © 2014 Tumblr Inc.
 
 Distributed under the Apache License, Version 2.0.
 http://www.apache.org/licenses/LICENSE-2.0
