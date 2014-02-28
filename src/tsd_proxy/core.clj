@@ -76,6 +76,8 @@
             broadcast-ch))))
 
 (defn start-tsd-listener []
+  "Start the tcp listener and return a zero parameter function that
+   can then be used to shutdown the tcp server."
   (let [config (get-config config-file)]
     (log/info "Server starting.. will listen on port:" (:listen-port config))
     (start-tcp-server tsd-incoming-handler
